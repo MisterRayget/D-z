@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -34,7 +34,7 @@ int main() {
     }
     cout << endl;
     cout << "Char" << endl << endl;
-    char arrchar[] = { 'a','q','w','e','r','t','y','u','i','o'};
+    char arrchar[] = { 'a','q','w','e','r','t','y','u','i','o' };
     for (int y = 0; y < 10; y++) {
         cout << "char[" << y << "]=" << arrchar[y] << endl;
     }
@@ -42,7 +42,12 @@ int main() {
     cout << "Bool" << endl << endl;
     bool arrbool[] = { 1,0,1,0,0,1,1,0,0,1 };
     for (int u = 0; u < 10; u++) {
-        cout << "bool[" << u << "]=" << arrbool[u] << endl;
+        if (arrbool[u] == 0) {
+            cout << "char[" << u << "]=" << "False" << endl;
+        }
+        else {
+            cout << "char[" << u << "]=" << "True" << endl;
+        }
     }
 
 
