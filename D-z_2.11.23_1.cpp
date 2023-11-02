@@ -12,12 +12,14 @@ int main(){
 void random() {
     int arrnum1[QWA]{} = 0;
     int arrnum2[QWA]{} = 0;
+    //Заполнение
     for (int i;i < QWA;i++) {
         arrnum1[i] = srand();
     }
     for (int j;j < QWA;j++) {
-        arrnum1[j] = srand();
+        arrnum2[j] = srand();
     }
+    //Выдача
     for (int i = 0;i < QWA;i++) {
         cout << arrint1[i] << " ";
     }
