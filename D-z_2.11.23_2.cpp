@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-int sum_of_digits(int n) {
+int sum(int n) {
     int t = 0;
     while (n != 0) {
         t += n % 10;
@@ -18,7 +18,7 @@ int main() {
 
     int result = n;
     do {
-        result = sum_of_digits(result);
+        result = sum(result);
         cout << result << endl;
     } while (result >= 10);
 
