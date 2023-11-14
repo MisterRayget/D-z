@@ -9,7 +9,7 @@ int main()
     string arrslov[NUM];
     cout<<"Введите слова"<<endl;
     for(int i = 0;i < NUM;i++){
-        gitline(cin, arrslov[i]);
+        getline(cin, arrslov[i]);
     }
     cout<<endl;
     for (int i = 0;i < NUM;i++) {
