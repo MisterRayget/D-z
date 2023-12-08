@@ -22,7 +22,7 @@ int main(){
         for (int j = 0;j < MasivLimit;j++) {
             cout << setw(4) << arrMasiv[i][j] << "  ";
             sumstrok[i] += arrMasiv[i][j];
-            sumstolb[i] += arrMasiv[i][j];
+            sumstolb[j] += arrMasiv[i][j];
         }
         cout << endl;
     }
